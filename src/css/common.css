@@ -16,3 +16,45 @@ img {
   display: block;
   max-width: 100%;
 }
+
+button {
+  cursor: pointer;
+}
+
+.timer {
+  display: flex;
+  margin-top: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.field:not(:last-child) {
+  margin-right: 20px;
+}
+
+.field .value {
+  font-size: 50px;
+  margin-bottom: -5px;
+}
+
+.field .label {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 25px;
+}
+
+.btn + .btn {
+  margin-left: 5px;
+}
